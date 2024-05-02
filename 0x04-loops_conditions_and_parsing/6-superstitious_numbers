@@ -5,15 +5,16 @@ var=1
 while [ $var -le 20 ]
 do
     echo $var
-    if [ $var == 4 ]
-    then
+    case $var in
+    4)
         echo "bad luck from China"
-    elif [ $var == 9 ]
-    then
-    echo "bad luck from Japan"
-    elif [ $var == 17 ]
-    then
+    ;;
+    9)
+        echo "bad luck from Japan"
+    ;;
+    17)
     echo "bad luck from Italy"
-    fi
+    ;;
+    esac
     var=$((var + 1))
 done
