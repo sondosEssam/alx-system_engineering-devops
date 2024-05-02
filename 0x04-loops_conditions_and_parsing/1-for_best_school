@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#prints best school 10 times
 var=10
 while [ $var -ge 1 ]
 do
