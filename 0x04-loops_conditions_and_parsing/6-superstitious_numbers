@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#prints in while
+
+var=1
+while [ $var -le 20 ]
+do
+    echo $var
+    if [ $var == 4 ]
+    then
+        echo "bad luck from China"
+    elif [ $var == 9 ]
+    then
+    echo "bad luck from Japan"
+    elif [ $var == 17 ]
+    then
+    echo "bad luck from Italy"
+    fi
+    var=$((var + 1))
+done
