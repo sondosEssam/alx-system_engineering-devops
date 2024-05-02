@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #prints in while
+
 var=10
 while [ $var -ge 1 ]
 do
