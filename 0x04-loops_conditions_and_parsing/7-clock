@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#prints in while
+
+var=0
+var2=1
+while [ $var -le 12 ]
+do
+    echo "Hour:"$var
+    if [ $var -ne 12 ]
+    then
+    while [ $var2 -le 59 ]
+    do
+        echo $var2
+        var2=$((var2 + 1))
+    done
+    fi
+    var2=1
+    var=$((var + 1))
+done
