@@ -5,7 +5,7 @@ var=0
 var2=1
 while [ $var -le 12 ]
 do
-    echo "Hour:"$var
+    echo "Hour: "$var
     if [ $var -ne 12 ]
     then
     while [ $var2 -le 59 ]
