@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#prints in while
+
+var=10
+while [ $var -ge 1 ]
+do
+    if [ $var == 3 ]
+    then
+        echo "good luck"
+    elif [ $var == 7 ]
+    then
+    echo "bad luck"
+    else
+    echo "Best School"
+    fi
+    var=$((var - 1))
+done
