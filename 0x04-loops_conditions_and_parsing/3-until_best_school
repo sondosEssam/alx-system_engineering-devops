@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#prints in while
+var=10
+until [ $var -eq 0 ]
+do
+    echo "Best School"
+    var=$((var - 1))
+done
