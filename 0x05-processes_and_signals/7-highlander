@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#ooo
+function ec()
+{
+    echo "I am invincible!!!"
+}
+trap ec SIGTERM
+while true;
+do
+echo "To infinity and beyond"
+sleep 2
+done
