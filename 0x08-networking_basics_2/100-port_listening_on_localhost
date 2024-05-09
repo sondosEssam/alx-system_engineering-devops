@@ -1,0 +1,4 @@
+#!/usr/bin/env bash 
+#display ip4 
+
+nc -l localhost 98
