@@ -14,7 +14,7 @@ sshkey=$4
 
 #disabling strict hostkey checking
 
-scp -o "StrictHostKeyChecking=no" -i "$path" "$usr@$ip:~/"
+scp -o "StrictHostKeyChecking=no" -i "$sshkey" "$path" "$usr@$ip:~/"
 
 if [ $? -eq 0 ]
 then
